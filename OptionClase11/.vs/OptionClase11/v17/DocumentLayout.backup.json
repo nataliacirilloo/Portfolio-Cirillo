@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\natal\\OneDrive\\Im\u00E1genes\\Escritorio\\Facultad\\DAW\\OptionClase11\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B20FBC4C-7352-4AB4-B33D-313E62EF7220}|OptionClase11.csproj|c:\\users\\natal\\onedrive\\im\u00E1genes\\escritorio\\facultad\\daw\\optionclase11\\cliente.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{B20FBC4C-7352-4AB4-B33D-313E62EF7220}|OptionClase11.csproj|solutionrelative:cliente.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B20FBC4C-7352-4AB4-B33D-313E62EF7220}|OptionClase11.csproj|C:\\Users\\natal\\OneDrive\\Im\u00E1genes\\Escritorio\\Facultad\\DAW\\OptionClase11\\cliente.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B20FBC4C-7352-4AB4-B33D-313E62EF7220}|OptionClase11.csproj|solutionrelative:cliente.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B20FBC4C-7352-4AB4-B33D-313E62EF7220}|OptionClase11.csproj|C:\\Users\\natal\\OneDrive\\Im\u00E1genes\\Escritorio\\Facultad\\DAW\\OptionClase11\\servidor.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B20FBC4C-7352-4AB4-B33D-313E62EF7220}|OptionClase11.csproj|solutionrelative:servidor.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B20FBC4C-7352-4AB4-B33D-313E62EF7220}|OptionClase11.csproj|C:\\Users\\natal\\OneDrive\\Im\u00E1genes\\Escritorio\\Facultad\\DAW\\OptionClase11\\servidor.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{B20FBC4C-7352-4AB4-B33D-313E62EF7220}|OptionClase11.csproj|solutionrelative:servidor.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Servidor.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\natal\\OneDrive\\Im\u00E1genes\\Escritorio\\Facultad\\DAW\\OptionClase11\\Servidor.aspx.cs",
+              "RelativeDocumentMoniker": "Servidor.aspx.cs",
+              "ToolTip": "C:\\Users\\natal\\OneDrive\\Im\u00E1genes\\Escritorio\\Facultad\\DAW\\OptionClase11\\Servidor.aspx.cs",
+              "RelativeToolTip": "Servidor.aspx.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T22:35:35.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Servidor.aspx",
+              "DocumentMoniker": "C:\\Users\\natal\\OneDrive\\Im\u00E1genes\\Escritorio\\Facultad\\DAW\\OptionClase11\\Servidor.aspx",
+              "RelativeDocumentMoniker": "Servidor.aspx",
+              "ToolTip": "C:\\Users\\natal\\OneDrive\\Im\u00E1genes\\Escritorio\\Facultad\\DAW\\OptionClase11\\Servidor.aspx",
+              "RelativeToolTip": "Servidor.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-10T22:33:54.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cliente.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\natal\\OneDrive\\Im\u00E1genes\\Escritorio\\Facultad\\DAW\\OptionClase11\\Cliente.aspx.cs",
+              "RelativeDocumentMoniker": "Cliente.aspx.cs",
+              "ToolTip": "C:\\Users\\natal\\OneDrive\\Im\u00E1genes\\Escritorio\\Facultad\\DAW\\OptionClase11\\Cliente.aspx.cs",
+              "RelativeToolTip": "Cliente.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T22:33:05.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cliente.aspx",
+              "DocumentMoniker": "C:\\Users\\natal\\OneDrive\\Im\u00E1genes\\Escritorio\\Facultad\\DAW\\OptionClase11\\Cliente.aspx",
+              "RelativeDocumentMoniker": "Cliente.aspx",
+              "ToolTip": "C:\\Users\\natal\\OneDrive\\Im\u00E1genes\\Escritorio\\Facultad\\DAW\\OptionClase11\\Cliente.aspx",
+              "RelativeToolTip": "Cliente.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-10T22:32:14.982Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
