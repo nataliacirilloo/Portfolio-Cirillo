@@ -1,0 +1,14 @@
+C:\Users\Naty\Desktop\Facultad\DAS\IlunaticTp\BE\bin\Debug\BE.dll
+C:\Users\Naty\Desktop\Facultad\DAS\IlunaticTp\BE\bin\Debug\BE.pdb
+C:\Users\Naty\Desktop\Facultad\DAS\IlunaticTp\BE\obj\Debug\BE.csproj.AssemblyReference.cache
+C:\Users\Naty\Desktop\Facultad\DAS\IlunaticTp\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
+C:\Users\Naty\Desktop\Facultad\DAS\IlunaticTp\BE\obj\Debug\BE.dll
+C:\Users\Naty\Desktop\Facultad\DAS\IlunaticTp\BE\obj\Debug\BE.pdb
+C:\Users\natal\OneDrive\Escritorio\Facultad\IlunaticTp\IlunaticTp\BE\bin\Debug\BE.dll
+C:\Users\natal\OneDrive\Escritorio\Facultad\IlunaticTp\IlunaticTp\BE\bin\Debug\BE.pdb
+C:\Users\natal\OneDrive\Escritorio\Facultad\IlunaticTp\IlunaticTp\BE\obj\Debug\BE.csproj.AssemblyReference.cache
+C:\Users\natal\OneDrive\Escritorio\Facultad\IlunaticTp\IlunaticTp\BE\obj\Debug\BE.Buttons.resources
+C:\Users\natal\OneDrive\Escritorio\Facultad\IlunaticTp\IlunaticTp\BE\obj\Debug\BE.csproj.GenerateResource.cache
+C:\Users\natal\OneDrive\Escritorio\Facultad\IlunaticTp\IlunaticTp\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
+C:\Users\natal\OneDrive\Escritorio\Facultad\IlunaticTp\IlunaticTp\BE\obj\Debug\BE.dll
+C:\Users\natal\OneDrive\Escritorio\Facultad\IlunaticTp\IlunaticTp\BE\obj\Debug\BE.pdb

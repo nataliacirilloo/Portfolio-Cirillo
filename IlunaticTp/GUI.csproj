@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{258AA2C6-1527-4100-8485-CB2C94CCC1F6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>IlunaticTp</RootNamespace>
+    <AssemblyName>IlunaticTp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCliente.Designer.cs">
+      <DependentUpon>FormCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCategoria.Designer.cs">
+      <DependentUpon>FrmCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCompras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCompras.Designer.cs">
+      <DependentUpon>FrmCompras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVentas.Designer.cs">
+      <DependentUpon>frmVentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProducto.Designer.cs">
+      <DependentUpon>FrmProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inicio.Designer.cs">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProveedor.Designer.cs">
+      <DependentUpon>FrmProveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="FrmUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUsuario.Designer.cs">
+      <DependentUpon>FrmUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utilidades\BotonAgregar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Utilidades\BotonAgregar.Designer.cs">
+      <DependentUpon>BotonAgregar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utilidades\BotonEliminar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Utilidades\BotonEliminar.Designer.cs">
+      <DependentUpon>BotonEliminar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utilidades\Correo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Utilidades\Correo.Designer.cs">
+      <DependentUpon>Correo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utilidades\Documento.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Utilidades\Documento.Designer.cs">
+      <DependentUpon>Documento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utilidades\ModificarButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Utilidades\ModificarButton.Designer.cs">
+      <DependentUpon>ModificarButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utilidades\OpcionCombo.cs" />
+    <Compile Include="Utilidades\PasswordTextBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Utilidades\PasswordTextBox.Designer.cs">
+      <DependentUpon>PasswordTextBox.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FormCliente.resx">
+      <DependentUpon>FormCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCategoria.resx">
+      <DependentUpon>FrmCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCompras.resx">
+      <DependentUpon>FrmCompras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVentas.resx">
+      <DependentUpon>frmVentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProducto.resx">
+      <DependentUpon>FrmProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProveedor.resx">
+      <DependentUpon>FrmProveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUsuario.resx">
+      <DependentUpon>FrmUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inicio.resx">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Utilidades\BotonAgregar.resx">
+      <DependentUpon>BotonAgregar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utilidades\BotonEliminar.resx">
+      <DependentUpon>BotonEliminar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utilidades\Correo.resx">
+      <DependentUpon>Correo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utilidades\Documento.resx">
+      <DependentUpon>Documento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utilidades\ModificarButton.resx">
+      <DependentUpon>ModificarButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utilidades\PasswordTextBox.resx">
+      <DependentUpon>PasswordTextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="BE\BE.csproj">
+      <Project>{dbb08f86-4cae-4520-b132-cfd39f0c7989}</Project>
+      <Name>BE</Name>
+    </ProjectReference>
+    <ProjectReference Include="BLL\BLL.csproj">
+      <Project>{eb1e9f51-7be8-4ed9-a88e-944b95a516ce}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\categorias.png" />
+    <None Include="Resources\logotipo-de-apple.png" />
+    <None Include="Resources\social.png" />
+    <None Include="Resources\borrar.png" />
+    <None Include="Resources\lapiz.png" />
+    <None Include="Resources\signo-menos-de-una-linea-en-posicion-horizontal.png" />
+    <None Include="Resources\mas.png" />
+    <None Include="Resources\boton-agregar.png" />
+    <None Include="Resources\imagen-de-perfil %281%29.png" />
+    <None Include="Resources\imagen-de-perfil.png" />
+    <None Include="Resources\LogoLN.png" />
+    <None Include="Resources\etiqueta-de-precio.png" />
+    <None Include="Resources\mantenimiento.png" />
+    <None Include="Resources\carrito-de-compras.png" />
+    <None Include="Resources\proveedor.png" />
+    <None Include="Resources\agregar-usuario.png" />
+    <None Include="Resources\Logo.png" />
+    <None Include="Resources\customer-review.png" />
+    <None Include="Resources\reporte-de-ventas.png" />
+    <None Include="Resources\nueva-cuenta.png" />
+    <None Include="Resources\gestion.png" />
+    <None Include="Resources\smartphone.png" />
+    <None Include="Resources\etiqueta-de-precio %281%29.png" />
+    <Content Include="Utilidades\Logo.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
