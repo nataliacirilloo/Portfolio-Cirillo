@@ -1,0 +1,55 @@
+# Ilunatic – Sistema de Venta de Accesorios para iPhone
+
+Aplicación de escritorio desarrollada en C# orientada a la gestión y venta de accesorios
+para iPhone. El sistema contempla funcionalidades completas de administración, compras,
+ventas y control de usuarios, simulando un entorno comercial real.
+
+## Tecnologías utilizadas
+- C#
+- Windows Forms
+- SQL Server
+
+## Funcionalidades principales
+
+### Autenticación y usuarios
+- Sistema de login de usuarios
+- Gestión de usuarios del sistema
+
+### Gestión de entidades
+- Gestión de clientes
+- Gestión de proveedores
+- Gestión de categorías
+- Gestión de productos
+
+### Operaciones comerciales
+- Registro de compras
+- Registro de ventas
+- Control básico de stock
+- Asociación de productos a categorías
+
+### Persistencia de datos
+- Integración con base de datos SQL Server
+
+## Estructura del proyecto
+El proyecto está organizado mediante formularios independientes para cada entidad y
+operación, permitiendo una separación clara de responsabilidades:
+
+- Formularios de clientes, productos, categorías y proveedores
+- Formularios de compras y ventas
+- Formularios de usuarios y autenticación
+
+## Objetivo del proyecto
+Desarrollar una aplicación de escritorio completa que integre interfaz gráfica,
+lógica de negocio y persistencia de datos, aplicando buenas prácticas de programación
+en C# y manejo de bases de datos.
+
+## Qué demuestra este proyecto
+- Desarrollo de aplicaciones Windows Forms en C#
+- Implementación de sistemas de login y control de usuarios
+- Manejo de operaciones comerciales (ventas y compras)
+- Uso de XML para persistencia de datos
+- Integración con SQL Server
+- Organización y mantenimiento de proyectos de tamaño medio
+
+## Estado del proyecto
+Proyecto finalizado con fines educativos y demostrativos.
