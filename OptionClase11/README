@@ -1,0 +1,16 @@
+# Cálculo de Viajes
+
+Ejercicio web desarrollado en C# con ASP.NET Web Forms.
+La aplicación permite ingresar datos de un viaje y calcula el costo total
+según destino, categoría del hotel, cantidad de personas y días.
+
+## Tecnologías
+- C#
+- ASP.NET Web Forms
+
+## Funcionalidades
+- Selección de destino y categoría
+- Cálculo dinámico del precio total
+- Uso de variables de sesión para el paso de datos entre páginas
+
+Ejercicio práctico orientado al uso de formularios web, sesiones y lógica de cálculo.
