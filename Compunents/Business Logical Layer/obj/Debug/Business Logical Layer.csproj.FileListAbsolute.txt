@@ -1,0 +1,16 @@
+C:\Comunents\Business Logical Layer\bin\Debug\Business Logical Layer.dll
+C:\Comunents\Business Logical Layer\bin\Debug\Business Logical Layer.pdb
+C:\Comunents\Business Logical Layer\bin\Debug\Data Access Layer.dll
+C:\Comunents\Business Logical Layer\bin\Debug\Entity Layer.dll
+C:\Comunents\Business Logical Layer\bin\Debug\Newtonsoft.Json.dll
+C:\Comunents\Business Logical Layer\bin\Debug\Services Layer.dll
+C:\Comunents\Business Logical Layer\bin\Debug\Data Access Layer.pdb
+C:\Comunents\Business Logical Layer\bin\Debug\Entity Layer.pdb
+C:\Comunents\Business Logical Layer\bin\Debug\Services Layer.pdb
+C:\Comunents\Business Logical Layer\bin\Debug\Newtonsoft.Json.xml
+C:\Comunents\Business Logical Layer\obj\Debug\Business Logical Layer.csproj.AssemblyReference.cache
+C:\Comunents\Business Logical Layer\obj\Debug\Business Logical Layer.csproj.CoreCompileInputs.cache
+C:\Comunents\Business Logical Layer\obj\Debug\Business.1DF7C490.Up2Date
+C:\Comunents\Business Logical Layer\obj\Debug\Business Logical Layer.dll
+C:\Comunents\Business Logical Layer\obj\Debug\Business Logical Layer.pdb
+C:\Comunents\Business Logical Layer\bin\Debug\Business Logical Layer.dll.config

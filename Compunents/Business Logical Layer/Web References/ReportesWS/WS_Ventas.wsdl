@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:tns="http://tempuri.org/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="ResumenMensualPorProducto">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="filas" type="tns:ArrayOfReporteMensual" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfReporteMensual">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="ReporteMensual" nillable="true" type="tns:ReporteMensual" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ReporteMensual">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Id_Pedido" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="FechaPedido" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="MontoEnvio" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="TotalPedidoGuardado" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="Id_Producto" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="NombreProducto" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="SubtotalItem" type="s:decimal" />
+          <s:element minOccurs="1" maxOccurs="1" name="TotalItems" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="TotalCalculado" type="s:decimal" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ResumenMensualPorProductoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ResumenMensualPorProductoResult" type="tns:ArrayOfReporteMensual" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ResumenMensualPorProductoSoapIn">
+    <wsdl:part name="parameters" element="tns:ResumenMensualPorProducto" />
+  </wsdl:message>
+  <wsdl:message name="ResumenMensualPorProductoSoapOut">
+    <wsdl:part name="parameters" element="tns:ResumenMensualPorProductoResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WS_VentasSoap">
+    <wsdl:operation name="ResumenMensualPorProducto">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Resumen mensual por producto (pedidos, unidades, recaudación y % del mes).</wsdl:documentation>
+      <wsdl:input message="tns:ResumenMensualPorProductoSoapIn" />
+      <wsdl:output message="tns:ResumenMensualPorProductoSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WS_VentasSoap" type="tns:WS_VentasSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ResumenMensualPorProducto">
+      <soap:operation soapAction="http://tempuri.org/ResumenMensualPorProducto" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WS_VentasSoap12" type="tns:WS_VentasSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ResumenMensualPorProducto">
+      <soap12:operation soapAction="http://tempuri.org/ResumenMensualPorProducto" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WS_Ventas">
+    <wsdl:port name="WS_VentasSoap" binding="tns:WS_VentasSoap">
+      <soap:address location="https://localhost:44389/WS_Ventas.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WS_VentasSoap12" binding="tns:WS_VentasSoap12">
+      <soap12:address location="https://localhost:44389/WS_Ventas.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

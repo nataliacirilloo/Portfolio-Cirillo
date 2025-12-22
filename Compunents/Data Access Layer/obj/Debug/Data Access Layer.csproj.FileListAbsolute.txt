@@ -1,0 +1,11 @@
+C:\Comunents\Data Access Layer\bin\Debug\Data Access Layer.dll
+C:\Comunents\Data Access Layer\bin\Debug\Data Access Layer.pdb
+C:\Comunents\Data Access Layer\bin\Debug\Entity Layer.dll
+C:\Comunents\Data Access Layer\bin\Debug\Services Layer.dll
+C:\Comunents\Data Access Layer\bin\Debug\Entity Layer.pdb
+C:\Comunents\Data Access Layer\bin\Debug\Services Layer.pdb
+C:\Comunents\Data Access Layer\obj\Debug\Data Access Layer.csproj.AssemblyReference.cache
+C:\Comunents\Data Access Layer\obj\Debug\Data Access Layer.csproj.CoreCompileInputs.cache
+C:\Comunents\Data Access Layer\obj\Debug\Data Acc.F8789B99.Up2Date
+C:\Comunents\Data Access Layer\obj\Debug\Data Access Layer.dll
+C:\Comunents\Data Access Layer\obj\Debug\Data Access Layer.pdb
