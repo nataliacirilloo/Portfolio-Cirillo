@@ -1,0 +1,31 @@
+# Tech Store – Compunents
+
+Plataforma web de e-commerce desarrollada como proyecto académico para la venta de
+componentes de computadoras.
+
+El sistema permite la gestión de usuarios, productos, carrito de compras,
+pedidos y pagos, aplicando una arquitectura en capas y buenas prácticas
+de desarrollo.
+
+## Tecnologías utilizadas
+- C#
+- ASP.NET Web Forms
+- Web Services (ASMX)
+- SQL Server
+- XML
+
+## Características principales
+- Registro y login de usuarios con control de sesiones
+- Gestión de productos y stock
+- Carrito de compras y confirmación de pedidos
+- Cálculo de envíos por localidad
+- Validación de pagos
+- Bitácora de eventos
+- Arquitectura en capas (DAL, BLL, BE, GUI, Services)
+
+## Arquitectura
+El proyecto está estructurado siguiendo un modelo en capas, separando
+la lógica de negocio, el acceso a datos, las entidades y la presentación,
+lo que facilita el mantenimiento y la escalabilidad del sistema.
+
+Proyecto realizado en el marco de la materia **Desarrollo y Arquitecturas Web**.
