@@ -1,0 +1,73 @@
+# 🎓 Sistema de Seguimiento Académico Universitario
+
+Sistema profesional para la **gestión y seguimiento del progreso académico universitario**.  
+Permite a los estudiantes visualizar su avance en la carrera, importar planes de estudio desde Excel y gestionar el estado de sus materias de forma clara e intuitiva.
+El proyecto está desarrollado con una **arquitectura moderna full stack**, separando claramente frontend y backend, y con foco en buenas prácticas, reglas de negocio y experiencia de usuario.
+
+---
+
+## ✨ Funcionalidades principales
+
+- 🔐 Autenticación de usuarios con **JWT**
+- 👤 Gestión de estudiantes
+- 🎓 Gestión de carreras
+- 📊 Visualización del progreso académico
+- 📥 Importación de planes de estudio desde archivos **Excel (.xlsx)**
+- 🧠 Gestión de estados de materias:
+  - APROBADA
+  - CURSANDO
+  - PENDIENTE
+  - BLOQUEADA (según correlatividades)
+- 🔗 Reglas de correlatividades automáticas
+- 📈 Actualización dinámica de gráficos y métricas
+- 🎨 Interfaz moderna, minimalista y consistente
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+### Backend (API REST)
+- **Java 17**
+- **Spring Boot 3**
+- **Spring Security 6**
+- **JWT (JSON Web Tokens)** – Autenticación sin estado
+- **JPA / Hibernate**
+- **H2 Database** (en memoria, entorno de desarrollo)
+- **Apache POI** – Procesamiento de archivos Excel
+- **Lombok** – Reducción de boilerplate
+- **JUnit 5 + Mockito** – Tests unitarios de lógica de negocio
+
+### Frontend (SPA)
+- **React 18**
+- **Vite**
+- **React Router DOM**
+- **Axios** (con interceptores)
+- **Recharts** – Gráficos
+- **CSS Modules** – Estilos modulares y mantenibles
+
+---
+
+## 🧱 Arquitectura general
+
+- Backend desacoplado mediante **API REST**
+- Frontend como **Single Page Application**
+- Comunicación vía **JSON**
+- Seguridad basada en **JWT**
+- Separación clara de responsabilidades:
+  - Controller
+  - Service
+  - Domain
+  - Repository
+
+---
+
+## 🔌 Comunicación Frontend – Backend
+
+La comunicación se realiza mediante **HTTP Requests** (`GET`, `POST`, `PUT`) en formato JSON.
+
+### Axios + Interceptores
+- Se utiliza una instancia centralizada de Axios
+- Un interceptor agrega automáticamente el token JWT a cada request:
+
+```http
+Authorization: Bearer <TOKEN_JWT>
