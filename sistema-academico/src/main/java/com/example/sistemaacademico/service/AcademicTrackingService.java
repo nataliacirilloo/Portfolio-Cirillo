@@ -30,8 +30,6 @@ public class AcademicTrackingService {
     }
 
     public List<Materia> listarTodasLasMaterias() {
-        // Assume first carrera for now, or fetch all materias for user's careers
-        // Need custom query in MateriaRepository: findByCarrera_Usuario_Id
         return materiaRepository.findByCarrera_Usuario_Id(getCurrentUser().getId());
     }
 
@@ -60,8 +58,6 @@ public class AcademicTrackingService {
     }
 
     public void actualizarEstadosAutomaticamente() {
-        // Ideally should only update for the current user's semantic scope, or passed
-        // materia's career
         List<Materia> todas = listarTodasLasMaterias();
         boolean changed = false;
 
@@ -131,7 +127,6 @@ public class AcademicTrackingService {
 
     public List<Map<String, Object>> obtenerMateriasConEstado() {
         List<Materia> materias = listarTodasLasMaterias();
-        // Return raw properties + computed "esCursable" flag
         return materias.stream().map(m -> {
             Map<String, Object> map = new HashMap<>();
             map.put("id", m.getId());
@@ -141,12 +136,9 @@ public class AcademicTrackingService {
             map.put("creditos", m.getCreditos());
             map.put("estado", m.getEstado());
             map.put("nota", m.getNota());
-
-            // Helpful flags for UI
             boolean cursable = esCursable(m);
             map.put("esCursable", cursable);
 
-            // List missing correlativas for Tooltip
             if (!cursable && m.getEstado() == EstadoMateria.BLOQUEADA) {
                 List<String> faltantes = m.getCorrelativas().stream()
                         .filter(c -> c.getEstado() != EstadoMateria.APROBADA)
