@@ -36,14 +36,8 @@ public class PlanEstudioService {
             Iterator<Row> rows = sheet.iterator();
             DataFormatter formatter = new DataFormatter();
 
-            // Skip header
             if (rows.hasNext())
                 rows.next();
-
-            // 1. Clear existing data (DANGEROUS IN PROD - Should filter by User)
-            // For now, we are skipping delete to avoid deleting other users' data or
-            // needing complex delete logic.
-            // materiaRepository.deleteAll();
 
             // Get Current User
             String email = org.springframework.security.core.context.SecurityContextHolder.getContext()
@@ -54,7 +48,7 @@ public class PlanEstudioService {
             // Ensure Carrera for User
             Carrera carrera = carreraRepository.findByUsuarioId(usuario.getId()).stream().findFirst().orElseGet(() -> {
                 Carrera c = new Carrera();
-                c.setNombre("Ingeniería Informática"); // Default name, could be param
+                c.setNombre("Ingeniería Informática"); 
                 c.setDuracionAnios(5);
                 c.setUsuario(usuario);
                 return carreraRepository.save(c);
@@ -90,7 +84,6 @@ public class PlanEstudioService {
                     materia.setCarrera(carrera);
                     materia.setEstado(com.example.sistemaacademico.entity.EstadoMateria.PENDIENTE);
 
-                    // Save immediately to get ID (though we map by Code)
                     materia = materiaRepository.save(materia);
                     codeToMateriaMap.put(materia.getCodigo(), materia);
 
