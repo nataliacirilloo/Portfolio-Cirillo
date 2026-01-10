@@ -17,7 +17,7 @@ public class Materia {
     @Column(nullable = false)
     private String nombre;
 
-    @Column(unique = true) // Remove nullable=false temporarily to allow easy migration/import if code is missing in old data, but better to force it if we drop db. Let's stick to user request.
+    @Column(unique = true) 
     private String codigo;
 
     @Column(nullable = false)
